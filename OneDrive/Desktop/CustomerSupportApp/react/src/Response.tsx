@@ -3,9 +3,9 @@ import { useState,useEffect } from "react";
 
 function Response() {
     const [response,setResponse]=useState('');
- useEffect(()=>{
-getresponse();
-},[]);
+//  useEffect(()=>{
+// getresponse();
+// },[]);
 
     async function getresponse(){
 const response=await fetch('http://localhost:8080/issue')

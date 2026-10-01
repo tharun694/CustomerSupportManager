@@ -29,8 +29,8 @@ const response=   fetch(
 'body':JSON.stringify(user)
   }
 )
-navigate('/response')
-alert("issue sended sucesfully wait for few seconds...!")
+//navigate('/response')
+alert("issue sended sucesfully wait for few seconds...!,check your email for response and check in spams too")
 
 }
   return (
