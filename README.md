@@ -8,7 +8,7 @@ A full-stack app that solves real customer problems automatically. A user submit
 
 1. User opens the web app and fills the **issue form** (name, email, issue description).
 2. The React frontend sends the request to the Spring Boot backend.
-3. The backend saves the ticket in PostgreSQL and sends the issue to the **Grok (xAI) API** via Spring AI.
+3. The backend saves the ticket  and response from grok api  via spring ai in PostgreSQL.
 4. Grok generates a helpful, context-aware reply.
 5. The reply is emailed to the user through the **Brevo REST API**.
 6. The ticket status is updated in the database.
