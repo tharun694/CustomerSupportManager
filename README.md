@@ -1,7 +1,7 @@
 # 🤖 AI Customer Support Agent
 
 A full-stack app that solves real customer problems automatically. A user submits an issue through a simple form, and within minutes an **AI-generated, context-aware reply lands in their inbox**, no human agent needed.
-
+ Here is Link -> https://csm-1.netlify.app/
 ---
 
 ## ✨ How It Works
@@ -118,7 +118,7 @@ BREVO_SENDER_NAME=Support Team
 ALLOWED_ORIGINS=http://localhost:3000
 ```
 
-> ⚠️ Add `.env` to `.gitignore`. Leaked keys get auto-revoked by GitHub secret scanning.
+> 
 
 ---
 
@@ -128,7 +128,7 @@ Backend and database run together with Docker Compose:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/customer-support-agent.git
+git clone https://github.com/tharun694/CustomerSupportManager
 cd customer-support-agent
 
 # 2. Add your .env file (see above)
