@@ -190,5 +190,3 @@ Sostware Engineer (Java) | Spring Boot | Microservices
 ---
 
 ## 📄 License
-
-MIT
